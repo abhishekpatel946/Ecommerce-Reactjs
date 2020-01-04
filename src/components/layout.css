@@ -1,0 +1,35 @@
+.bg-theme {
+  background-color: #2C3335;
+}
+
+.cart-icon {
+  font-size: 4rem;
+}
+
+.hero-background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-warning {
+  padding: 8px 35px;
+
+}
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
