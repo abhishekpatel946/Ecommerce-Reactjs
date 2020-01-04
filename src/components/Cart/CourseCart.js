@@ -39,7 +39,7 @@ export default class  extends Component {
                                     <button  
                                         data-item-id={node.id}
                                         data-item-price={node.price}
-                                        data-item-url="https://learncodeonline.in"
+                                        data-item-url="abhidekho.netlify.com"
                                         //data-item-description={node.description}
                                         data-item-image={node.image.fixed.src}
                                         data-item-name={node.title}
