@@ -7,7 +7,7 @@
 }
 
 .hero-background {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,7 @@
 }
 
 .about-background {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@
 }
 
 .contact-background {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,4 +40,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.img-prop {
+  width: 350px;
+  height: 500px
 }

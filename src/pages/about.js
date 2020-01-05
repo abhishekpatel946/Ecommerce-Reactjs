@@ -12,7 +12,7 @@ const aboutPage = ({data}) => (
     <SEO title="About" />
     <HeroSection 
       img={data.img.childImageSharp.fluid}
-      title="About LearnCodeOnline"
+      title="abhidekho.netlify.com"
       subtitle=""
       heroclass="about-background"
     />

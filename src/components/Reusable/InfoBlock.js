@@ -16,7 +16,7 @@ export default function InfoBlock({ heading }) {
                             This post describes three categories of headings and their functions.
                         </p> 
                             <Link to="/about/">
-                                <button className="btn btn-primary btn-lg">
+                                <button className="btn btn-danger btn-lg">
                                     {heading}
                                 </button>
                             </Link>

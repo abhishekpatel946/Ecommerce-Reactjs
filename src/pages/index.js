@@ -13,8 +13,8 @@ const IndexPage = ({data}) => (
     <SEO title="Home" />
     <HeroSection 
       img={data.img.childImageSharp.fluid}
-      title="i write code"
-      subtitle="learncodeonline.com"
+      title="I Write Code"
+      subtitle="abhidekho.netlify.com"
       heroclass="hero-background"
     />
     <InfoBlock heading="About Us"/>
@@ -24,7 +24,6 @@ const IndexPage = ({data}) => (
     <Teamphotosection />
   </Layout>
 )
-
 
 export const query = graphql`
 {

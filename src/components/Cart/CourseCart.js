@@ -29,7 +29,7 @@ export default class  extends Component {
         console.log(this.state.bundles)
 
         return (
-            <section className="py-5 bg-theme">
+            <section className="my-2 py-3 bg-theme">
                <div className="container">
                 <Heading title="Course" />
                 <div className="row my-3">
@@ -38,7 +38,7 @@ export default class  extends Component {
                             return(
                                 <button 
                                     type="button" 
-                                    className="btn btn-outline-info"
+                                    className="btn btn-outline-info mx-3"
                                     key={index}
                                     onClick={() =>{
                                         this.catyClick(category)
@@ -75,7 +75,7 @@ export default class  extends Component {
                                         //data-item-description={node.description}
                                         data-item-image={node.image.fixed.src}
                                         data-item-name={node.title}
-                                        className="btn btn-outline-info btn-block snipcart-add-item"
+                                        className="btn btn-outline-success btn-block snipcart-add-item"
                                     >Join Now</button>
                                 </div>
                             </div>

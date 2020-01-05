@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 export default function Dualinfoblock( {heading} ) {
     return (
-        <section className="my-4 py-4 bg-theme">
+        <section className="my-3 py-3 bg-theme">
             <div className="container">
                 <Heading title={heading} />
                 <div className="row">
@@ -42,7 +42,7 @@ export default function Dualinfoblock( {heading} ) {
                                     Some quick example text to build on the 
                                     card title and make up the bulk of the card's content.
                                 </p>
-                                <Link to="#" className="btn btn-primary btn-block">{heading}</Link>
+                                <Link to="" className="btn btn-outline-success btn-block">{heading}</Link>
                             </div>
                          </div>
                     </div>
